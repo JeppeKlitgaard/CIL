@@ -163,6 +163,8 @@ or, on windows:
 conda env create -f ./scripts/requirements-test-windows.yml
 ```
 
+This environment is named `cil` by default and may be activated using `conda activate cil`.
+
 #### Build CIL
 
 A C++ compiler is required to build the source code. Let's suppose that the user is in the source directory, then the following commands should work:
